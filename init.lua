@@ -74,6 +74,10 @@ vim.opt.scrolloff = 10
 -- MY OPTIONS
 vim.opt.clipboard = 'unnamedplus' -- Use system clipboard
 
+-- scrolling centering
+vim.keymap.set('n', '<C-d>', '<C-d>zz')
+vim.keymap.set('n', '<C-u>', '<C-u>zz')
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
